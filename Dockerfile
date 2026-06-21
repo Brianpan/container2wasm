@@ -35,10 +35,12 @@ ARG TINYEMU_REPO_VERSION=e4e9bd198f9c0505ab4c77a6a9d038059cd1474a
 ARG BOCHS_REPO=https://github.com/ktock/Bochs
 ARG BOCHS_REPO_VERSION=a88d1f687ec83ff82b5318f59dcecb8dab44fc83
 
-ARG QEMU_REPO=https://github.com/ktock/qemu-wasm
-ARG QEMU_REPO_VERSION=8604ed49a3cde392890b014a8d5a959c8a2fe72a
+# ARG QEMU_REPO=https://github.com/ktock/qemu-wasm
+# ARG QEMU_REPO_VERSION=8604ed49a3cde392890b014a8d5a959c8a2fe72a
+ARG QEMU_REPO=https://github.com/brianpan/qemu-wasm
+ARG QEMU_REPO_VERSION=c3daaa0e7adbad24a81db821ec986e10ebd6f08c
 
-ARG SOURCE_REPO=https://github.com/ktock/container2wasm
+ARG SOURCE_REPO=https://github.com/container2wasm/container2wasm
 ARG SOURCE_REPO_VERSION=v0.8.4
 
 ARG ZLIB_VERSION=1.3.2
