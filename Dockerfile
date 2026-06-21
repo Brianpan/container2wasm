@@ -40,8 +40,9 @@ ARG BOCHS_REPO_VERSION=a88d1f687ec83ff82b5318f59dcecb8dab44fc83
 ARG QEMU_REPO=https://github.com/brianpan/qemu-wasm
 ARG QEMU_REPO_VERSION=c3daaa0e7adbad24a81db821ec986e10ebd6f08c
 
-ARG SOURCE_REPO=https://github.com/container2wasm/container2wasm
-ARG SOURCE_REPO_VERSION=v0.8.4
+# customized to our repo
+ARG SOURCE_REPO=https://github.com/brianpan/container2wasm
+ARG SOURCE_REPO_VERSION=v0.8.5
 
 ARG ZLIB_VERSION=1.3.2
 ARG GLIB_MINOR_VERSION=2.75
